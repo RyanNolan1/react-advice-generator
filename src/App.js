@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import patternDivider from "./images/pattern-divider-mobile.svg";
+import dice from "./images/icon-dice.svg";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div className="app-container">
+      <Advice />
+    </div>
+  );
+}
+
+function Advice() {
+  return (
+    <div className="advice-dice-container">
+      <div className="advice-container">
+        <h1 className="advice-header">ADVICE #117</h1>
+        <p className="advice-text">
+          “It is easy to sit up and take notice, what's difficult is getting up
+          and taking action.”
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div>
+          <img className="pattern-divider" src={patternDivider} alt="Pattern Divider" />
+        </div>
+      </div>
+      <div className="dice-container">
+        <img src={dice} alt="Dice Icon" />
+      </div>
     </div>
   );
 }
