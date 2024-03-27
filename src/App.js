@@ -7,10 +7,10 @@ function App() {
 
   const getAdvice = async () => {
     try {
-      const advice = await (
+      const data = await (
         await fetch("https://api.adviceslip.com/advice")
       ).json();
-      setAdvice(advice.slip);
+      setAdvice(data.slip);
     } catch (err) {
       setAdvice("App Error!");
     }
