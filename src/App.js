@@ -11,16 +11,20 @@ function App() {
 
 function Advice() {
   return (
-    <div className="advice-container">
-      <h1>ADVICE #117</h1>
-      <p>
-        “It is easy to sit up and take notice, what's difficult is getting up
-        and taking action.”
-      </p>
-      <div>
-        <img src={patternDivider} alt="Pattern Divider" />
+    <div className="advice-dice-container">
+      <div className="advice-container">
+        <h1 className="advice-header">ADVICE #117</h1>
+        <p className="advice-text">
+          “It is easy to sit up and take notice, what's difficult is getting up
+          and taking action.”
+        </p>
+        <div>
+          <img src={patternDivider} alt="Pattern Divider" />
+        </div>
       </div>
-      <img src={dice} alt="Dice Icon" />
+      <div className="dice-container">
+        <img src={dice} alt="Dice Icon" />
+      </div>
     </div>
   );
 }
