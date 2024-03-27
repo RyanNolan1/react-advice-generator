@@ -12,7 +12,7 @@ function App() {
       ).json();
       setAdvice(advice.slip);
     } catch (err) {
-      console.log("error");
+      setAdvice("App Error!");
     }
   };
 
