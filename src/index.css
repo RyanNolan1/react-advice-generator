@@ -21,3 +21,11 @@
   align-items: center;
   gap:2rem;
 }
+
+h1 {
+    font-size:0.6875rem;
+    color:hsl(150, 100%, 66%);
+    font-family: "Manrope", sans-serif;
+    font-weight:800;
+    letter-spacing: 3px;
+}

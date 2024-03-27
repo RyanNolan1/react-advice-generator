@@ -12,7 +12,7 @@ function App() {
 function Advice() {
   return (
     <div className="advice-container">
-      <h2>ADVICE #117</h2>
+      <h1>ADVICE #117</h1>
       <p>
         “It is easy to sit up and take notice, what's difficult is getting up
         and taking action.”
