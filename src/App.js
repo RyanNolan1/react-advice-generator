@@ -19,7 +19,7 @@ function Advice() {
           and taking action.”
         </p>
         <div>
-          <img src={patternDivider} alt="Pattern Divider" />
+          <img className="pattern-divider" src={patternDivider} alt="Pattern Divider" />
         </div>
       </div>
       <div className="dice-container">
