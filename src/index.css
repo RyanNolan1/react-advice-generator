@@ -27,6 +27,7 @@ body {
   justify-content: center;
   gap: 2rem;
   width: 100%;
+  max-width:33.75rem;
 }
 
 .advice-header {
