@@ -73,7 +73,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 120px 1rem 0 1rem;
+    padding: 0;
   }
 
   .dice-container:hover {
