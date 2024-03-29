@@ -44,6 +44,6 @@ Users should be able to:
 ## Author
 
 - Website - [http://ryannolan.uk/](http://ryannolan.uk/)
-- Frontend Mentor - [@RyanNolan1](https://www.frontendmentor.io/profile/@RyanNolan1)
+- Frontend Mentor - [@RyanNolan1](https://www.frontendmentor.io/profile/RyanNolan1)
 - LinkedIn - [ryan-nolan1](https://www.linkedin.com/in/ryan-nolan1/)
 
