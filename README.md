@@ -43,7 +43,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Ryan Nolan](https://ryannolan.uk)
+- Website - [Ryan Nolan](ryannolan.uk)
 - Frontend Mentor - [@RyanNolan1](https://www.frontendmentor.io/profile/yourusername)
 - LinkedIn - [ryan-nolan1](https://www.linkedin.com/in/ryan-nolan1/)
 
