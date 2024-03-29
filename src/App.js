@@ -5,16 +5,16 @@ import { useState } from "react";
 function App() {
   const [advice, setAdvice] = useState([]);
 
-  const getAdvice = async () => {
-    try {
-      const data = await (
-        await fetch("https://api.adviceslip.com/advice")
-      ).json();
-      setAdvice(data.slip);
-    } catch (err) {
-      setAdvice("App Error!");
-    }
-  };
+const getAdvice = async () => {
+  try {
+    const timestamp = Date.now(); // Get the current timestamp
+    const url = `https://api.adviceslip.com/advice?timestamp=${timestamp}`; // Append timestamp as a query parameter
+    const data = await (await fetch(url)).json();
+    setAdvice(data.slip);
+  } catch (err) {
+    setAdvice("App Error!");
+  }
+};
 
   return (
     <div className="app-container">
